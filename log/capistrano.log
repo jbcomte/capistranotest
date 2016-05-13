@@ -1,0 +1,228 @@
+# Logfile created on 2016-05-12 11:35:59 +0200 by logger.rb/47272
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-05-12 11:35:59 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [cd6a3e21] Running /usr/bin/env mkdir -p /tmp/test1/ as vagrant@vagrant.local
+ DEBUG [cd6a3e21] Command: /usr/bin/env mkdir -p /tmp/test1/
+  INFO [cd6a3e21] Finished in 25.592 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/test1/git-ssh.sh 0.0%
+  INFO Uploading /tmp/test1/git-ssh.sh 100.0%
+  INFO [ac6e6e50] Running /usr/bin/env chmod +rx /tmp/test1/git-ssh.sh as vagrant@vagrant.local
+ DEBUG [ac6e6e50] Command: /usr/bin/env chmod +rx /tmp/test1/git-ssh.sh
+  INFO [ac6e6e50] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [a1df41ac] Running /usr/bin/env git ls-remote --heads git@vagrant.local:/home/git/site1.git as vagrant@vagrant.local
+ DEBUG [a1df41ac] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/test1/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@vagrant.local:/home/git/site1.git )
+ DEBUG [a1df41ac] 	Warning: Permanently added 'vagrant.local' (RSA) to the list of known hosts.
+ DEBUG [a1df41ac] 	Permission denied (publickey,password).
+ DEBUG [a1df41ac] 	fatal: The remote end hung up unexpectedly
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-05-12 11:38:28 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [14979a94] Running /usr/bin/env mkdir -p /tmp/test1/ as git@vagrant.local
+ DEBUG [14979a94] Command: /usr/bin/env mkdir -p /tmp/test1/
+  INFO [14979a94] Finished in 8.673 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/test1/git-ssh.sh 0.0%
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-05-12 11:39:20 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [8a43d72c] Running /usr/bin/env mkdir -p /tmp/test1/ as git@vagrant.local
+ DEBUG [8a43d72c] Command: /usr/bin/env mkdir -p /tmp/test1/
+  INFO [8a43d72c] Finished in 10.188 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/test1/git-ssh.sh 0.0%
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-05-12 11:43:49 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [dd61b688] Running /usr/bin/env mkdir -p /tmp/test1/ as git@vagrant.local
+ DEBUG [dd61b688] Command: /usr/bin/env mkdir -p /tmp/test1/
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-05-12 12:26:13 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [d5d53d7f] Running /usr/bin/env mkdir -p /tmp/test1/ as git@vagrant.local
+ DEBUG [d5d53d7f] Command: /usr/bin/env mkdir -p /tmp/test1/
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-05-12 12:26:44 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [67322708] Running /usr/bin/env mkdir -p /tmp/test1/ as git@vagrant.local
+ DEBUG [67322708] Command: /usr/bin/env mkdir -p /tmp/test1/
+  INFO [67322708] Finished in 9.316 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/test1/git-ssh.sh 0.0%
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-05-12 12:27:30 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [58bb84be] Running /usr/bin/env mkdir -p /tmp/test1/ as vagrant@vagrant.local
+ DEBUG [58bb84be] Command: /usr/bin/env mkdir -p /tmp/test1/
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-05-12 12:29:04 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [61fc847e] Running /usr/bin/env mkdir -p /tmp/test1/ as vagrant@vagrant.local
+ DEBUG [61fc847e] Command: /usr/bin/env mkdir -p /tmp/test1/
+  INFO [61fc847e] Finished in 38.307 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/test1/git-ssh.sh 0.0%
+  INFO Uploading /tmp/test1/git-ssh.sh 100.0%
+  INFO [c5b89bd7] Running /usr/bin/env chmod +rx /tmp/test1/git-ssh.sh as vagrant@vagrant.local
+ DEBUG [c5b89bd7] Command: /usr/bin/env chmod +rx /tmp/test1/git-ssh.sh
+  INFO [c5b89bd7] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [10a43c56] Running /usr/bin/env git ls-remote --heads git@vagrant.local:/home/git/site1.git as vagrant@vagrant.local
+ DEBUG [10a43c56] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/test1/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@vagrant.local:/home/git/site1.git )
+ DEBUG [10a43c56] 	Permission denied (publickey,password).
+ DEBUG [10a43c56] 	fatal: The remote end hung up unexpectedly
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-05-12 12:34:26 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b7ba5d94] Running /usr/bin/env mkdir -p /tmp/test1/ as vagrant@vagrant.local
+ DEBUG [b7ba5d94] Command: /usr/bin/env mkdir -p /tmp/test1/
+  INFO [b7ba5d94] Finished in 12.946 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/test1/git-ssh.sh 0.0%
+  INFO Uploading /tmp/test1/git-ssh.sh 100.0%
+  INFO [21daa53f] Running /usr/bin/env chmod +rx /tmp/test1/git-ssh.sh as vagrant@vagrant.local
+ DEBUG [21daa53f] Command: /usr/bin/env chmod +rx /tmp/test1/git-ssh.sh
+  INFO [21daa53f] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [47fcc5a5] Running /usr/bin/env git ls-remote --heads git@vagrant.local:/home/git/site1.git as vagrant@vagrant.local
+ DEBUG [47fcc5a5] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/test1/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@vagrant.local:/home/git/site1.git )
+ DEBUG [47fcc5a5] 	Permission denied (publickey,password).
+ DEBUG [47fcc5a5] 	fatal: The remote end hung up unexpectedly
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-05-12 12:35:44 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [15163f79] Running /usr/bin/env mkdir -p /tmp/test1/ as vagrant@vagrant.local
+ DEBUG [15163f79] Command: /usr/bin/env mkdir -p /tmp/test1/
+  INFO [15163f79] Finished in 10.707 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/test1/git-ssh.sh 0.0%
+  INFO Uploading /tmp/test1/git-ssh.sh 100.0%
+  INFO [454a0643] Running /usr/bin/env chmod +rx /tmp/test1/git-ssh.sh as vagrant@vagrant.local
+ DEBUG [454a0643] Command: /usr/bin/env chmod +rx /tmp/test1/git-ssh.sh
+  INFO [454a0643] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [b47a45ff] Running /usr/bin/env git ls-remote --heads git@localhost:/home/git/site1.git as vagrant@vagrant.local
+ DEBUG [b47a45ff] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/test1/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@localhost:/home/git/site1.git )
+ DEBUG [b47a45ff] 	Warning: Permanently added 'localhost' (RSA) to the list of known hosts.
+ DEBUG [b47a45ff] 	Permission denied (publickey,password).
+ DEBUG [b47a45ff] 	fatal: The remote end hung up unexpectedly
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-05-12 17:51:51 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [50cf4077] Running /usr/bin/env mkdir -p /tmp/test1/ as vagrant@vagrant.local
+ DEBUG [50cf4077] Command: /usr/bin/env mkdir -p /tmp/test1/
+  INFO [50cf4077] Finished in 8.518 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/test1/git-ssh.sh 0.0%
+  INFO Uploading /tmp/test1/git-ssh.sh 100.0%
+  INFO [b7022b6c] Running /usr/bin/env chmod +rx /tmp/test1/git-ssh.sh as vagrant@vagrant.local
+ DEBUG [b7022b6c] Command: /usr/bin/env chmod +rx /tmp/test1/git-ssh.sh
+  INFO [b7022b6c] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [bf403ae2] Running /usr/bin/env git ls-remote --heads git@localhost:/home/git/site1.git as vagrant@vagrant.local
+ DEBUG [bf403ae2] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/test1/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@localhost:/home/git/site1.git )
+ DEBUG [bf403ae2] 	Permission denied (publickey,password).
+ DEBUG [bf403ae2] 	fatal: The remote end hung up unexpectedly
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-05-12 17:55:17 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [8f4007b4] Running /usr/bin/env mkdir -p /tmp/test1/ as vagrant@vagrant.local
+ DEBUG [8f4007b4] Command: /usr/bin/env mkdir -p /tmp/test1/
+  INFO [8f4007b4] Finished in 9.191 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/test1/git-ssh.sh 0.0%
+  INFO Uploading /tmp/test1/git-ssh.sh 100.0%
+  INFO [289773b3] Running /usr/bin/env chmod +rx /tmp/test1/git-ssh.sh as vagrant@vagrant.local
+ DEBUG [289773b3] Command: /usr/bin/env chmod +rx /tmp/test1/git-ssh.sh
+  INFO [289773b3] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [cb3d8e32] Running /usr/bin/env git ls-remote --heads git@localhost:/home/git/site1.git as vagrant@vagrant.local
+ DEBUG [cb3d8e32] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/test1/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@localhost:/home/git/site1.git )
+ DEBUG [cb3d8e32] 	Permission denied (publickey,password).
+ DEBUG [cb3d8e32] 	fatal: The remote end hung up unexpectedly
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-05-12 17:55:42 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [73f87bc0] Running /usr/bin/env mkdir -p /tmp/test1/ as root@vagrant.local
+ DEBUG [73f87bc0] Command: /usr/bin/env mkdir -p /tmp/test1/
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-05-12 17:56:26 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b11f7f67] Running /usr/bin/env mkdir -p /tmp/test1/ as vagrant@vagrant.local
+ DEBUG [b11f7f67] Command: /usr/bin/env mkdir -p /tmp/test1/
+  INFO [b11f7f67] Finished in 14.289 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/test1/git-ssh.sh 0.0%
+  INFO Uploading /tmp/test1/git-ssh.sh 100.0%
+  INFO [637be051] Running /usr/bin/env chmod +rx /tmp/test1/git-ssh.sh as vagrant@vagrant.local
+ DEBUG [637be051] Command: /usr/bin/env chmod +rx /tmp/test1/git-ssh.sh
+  INFO [637be051] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [73a0333f] Running /usr/bin/env git ls-remote --heads git@localhost:/home/git/site1.git as vagrant@vagrant.local
+ DEBUG [73a0333f] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/test1/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@localhost:/home/git/site1.git )
+ DEBUG [73a0333f] 	Permission denied (publickey,password).
+ DEBUG [73a0333f] 	fatal: The remote end hung up unexpectedly
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-05-13 10:49:43 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e40d5f3b] Running /usr/bin/env mkdir -p /tmp/test1/ as vagrant@vagrant.local
+ DEBUG [e40d5f3b] Command: /usr/bin/env mkdir -p /tmp/test1/
+  INFO [e40d5f3b] Finished in 9.205 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/test1/git-ssh.sh 0.0%
+  INFO Uploading /tmp/test1/git-ssh.sh 100.0%
+  INFO [4aa48e8d] Running /usr/bin/env chmod +rx /tmp/test1/git-ssh.sh as vagrant@vagrant.local
+ DEBUG [4aa48e8d] Command: /usr/bin/env chmod +rx /tmp/test1/git-ssh.sh
+  INFO [4aa48e8d] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [f333e885] Running /usr/bin/env git ls-remote --heads git@localhost:/home/git/site1.git as vagrant@vagrant.local
+ DEBUG [f333e885] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/test1/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@localhost:/home/git/site1.git )
+ DEBUG [f333e885] 	Permission denied (publickey,password).
+ DEBUG [f333e885] 	fatal: The remote end hung up unexpectedly
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-05-13 11:00:22 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [17c8a467] Running /usr/bin/env mkdir -p /tmp/test1/ as vagrant@vagrant.local
+ DEBUG [17c8a467] Command: /usr/bin/env mkdir -p /tmp/test1/
+  INFO [17c8a467] Finished in 8.545 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/test1/git-ssh.sh 0.0%
+  INFO Uploading /tmp/test1/git-ssh.sh 100.0%
+  INFO [a16f0eaf] Running /usr/bin/env chmod +rx /tmp/test1/git-ssh.sh as vagrant@vagrant.local
+ DEBUG [a16f0eaf] Command: /usr/bin/env chmod +rx /tmp/test1/git-ssh.sh
+  INFO [a16f0eaf] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [8e693c65] Running /usr/bin/env git ls-remote --heads git@localhost:/home/git/site1.git as vagrant@vagrant.local
+ DEBUG [8e693c65] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/test1/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@localhost:/home/git/site1.git )
+ DEBUG [8e693c65] 	Permission denied (publickey,password).
+ DEBUG [8e693c65] 	fatal: The remote end hung up unexpectedly
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-05-13 11:02:00 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [606a2560] Running /usr/bin/env mkdir -p /tmp/test1/ as vagrant@vagrant.local
+ DEBUG [606a2560] Command: /usr/bin/env mkdir -p /tmp/test1/
+  INFO [606a2560] Finished in 7.711 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/test1/git-ssh.sh 0.0%
+  INFO Uploading /tmp/test1/git-ssh.sh 100.0%
+  INFO [c485b3c6] Running /usr/bin/env chmod +rx /tmp/test1/git-ssh.sh as vagrant@vagrant.local
+ DEBUG [c485b3c6] Command: /usr/bin/env chmod +rx /tmp/test1/git-ssh.sh
+  INFO [c485b3c6] Finished in 0.006 seconds with exit status 0 (successful).
+  INFO [bcd392c5] Running /usr/bin/env git ls-remote --heads vagrant@vagrant.local:/home/vagrant/site1.git as vagrant@vagrant.local
+ DEBUG [bcd392c5] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/test1/git-ssh.sh" ; /usr/bin/env git ls-remote --heads vagrant@vagrant.local:/home/vagrant/site1.git )
+ DEBUG [bcd392c5] 	Permission denied (publickey,password).
+ DEBUG [bcd392c5] 	fatal: The remote end hung up unexpectedly
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-05-13 11:16:07 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [bc45fa0e] Running /usr/bin/env mkdir -p /tmp/test1/ as vagrant@vagrant.local
+ DEBUG [bc45fa0e] Command: /usr/bin/env mkdir -p /tmp/test1/
+  INFO [bc45fa0e] Finished in 8.352 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/test1/git-ssh.sh 0.0%
+  INFO Uploading /tmp/test1/git-ssh.sh 100.0%
+  INFO [7748de73] Running /usr/bin/env chmod +rx /tmp/test1/git-ssh.sh as vagrant@vagrant.local
+ DEBUG [7748de73] Command: /usr/bin/env chmod +rx /tmp/test1/git-ssh.sh
+  INFO [7748de73] Finished in 0.005 seconds with exit status 0 (successful).
+  INFO [a3ab0b24] Running /usr/bin/env git ls-remote --heads vagrant@vagrant.local:/home/vagrant/site1.git as vagrant@vagrant.local
+ DEBUG [a3ab0b24] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/test1/git-ssh.sh" ; /usr/bin/env git ls-remote --heads vagrant@vagrant.local:/home/vagrant/site1.git )
+ DEBUG [a3ab0b24] 	Permission denied (publickey,password).
+ DEBUG [a3ab0b24] 	fatal: The remote end hung up unexpectedly
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-05-13 11:21:35 +0200 cap staging ssh:doctor
+  INFO ---------------------------------------------------------------------------
+ DEBUG [c0d3d191] Running /usr/bin/env echo $SSH_AUTH_SOCK as vagrant@vagrant.local
+ DEBUG [c0d3d191] Command: /usr/bin/env echo $SSH_AUTH_SOCK
+ DEBUG [c0d3d191] 	
+ DEBUG [c0d3d191] Finished in 8.387 seconds with exit status 0 (successful).
+  INFO [aadb92ff] Running /usr/bin/env mkdir -p /tmp/test1/ as vagrant@vagrant.local
+ DEBUG [aadb92ff] Command: /usr/bin/env mkdir -p /tmp/test1/
+  INFO [aadb92ff] Finished in 0.005 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/test1/git-ssh.sh 0.0%
+  INFO Uploading /tmp/test1/git-ssh.sh 100.0%
+  INFO [3f62d08a] Running /usr/bin/env chmod +rx /tmp/test1/git-ssh.sh as vagrant@vagrant.local
+ DEBUG [3f62d08a] Command: /usr/bin/env chmod +rx /tmp/test1/git-ssh.sh
+  INFO [3f62d08a] Finished in 0.007 seconds with exit status 0 (successful).
+  INFO [8eeeb3bd] Running /usr/bin/env git ls-remote --heads vagrant@vagrant.local:/home/vagrant/site1.git as vagrant@vagrant.local
+ DEBUG [8eeeb3bd] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/test1/git-ssh.sh" ; /usr/bin/env git ls-remote --heads vagrant@vagrant.local:/home/vagrant/site1.git )
+ DEBUG [8eeeb3bd] 	Permission denied (publickey,password).
+ DEBUG [8eeeb3bd] 	fatal: The remote end hung up unexpectedly
