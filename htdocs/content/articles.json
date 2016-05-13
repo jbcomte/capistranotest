@@ -1,0 +1,9 @@
+﻿{
+	"id1": 
+	{
+		"class" : "bloc w3 h2 noShare",
+		"tags" : "heritage",
+		"style" : "background-image: url('img/contenus/visuel01.jpg')",
+
+	}
+}
